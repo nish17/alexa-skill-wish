@@ -1,0 +1,27 @@
+{
+  "session":{
+    "new": false,
+    "sessionId": "session1234",
+    "attributes":{},
+    "user":{
+      "userId": "usr123"
+  },
+  "application":{
+    "applicationId": "amzn1.ask.skill.ba2e1cf1-e8f6-4aa3-beec-e13dc607c971"
+  }
+},
+  "version": "1.0",
+  "request":{
+    "intent":{
+      "slots":{
+        "guestName":{
+          "name": "guestName",
+          "value": "Nimesh"
+        }
+      },
+      "name": "welcomeIntent"
+    },
+    "type":"IntentRequest",
+    "requestId": "request123"
+  }
+}
