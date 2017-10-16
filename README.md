@@ -2,4 +2,29 @@
 
 # Wish SKILL
 
-[![CircleCI](https://img.shields.io/circleci/project/github/nish17/alexa-skill-wish.svg)](https://circleci.com/gh/nish17/alexa-skill-wish)
+It's an Alexa skill, that helps you in greeting the user.
+
+## How to use?
+Once you've enabled the skill, try saying
+
+```
+
+"Alexa open Wish"
+
+```
+
+Or
+
+```
+
+"Alexa ask Wish to welcome Nimesh"
+
+```
+
+And in response it'll `welcome` followed by your `name`.
+
+## Language Support?
+Currently the skill supports only English, thus it'll be available only in
+- US
+- UK
+- India
