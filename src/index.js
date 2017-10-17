@@ -42,8 +42,8 @@ var handlers={
 
   'AMAZON.HelpIntent'() {
     this.response.speak(
-      `You can try: 'alexa, open ${process.env.SKILL_NAME}'` +
-        ` or 'alexa, ask ${process.env.SKILL_NAME} Whom you want me to wish'`
+      `Sorry, I didn't get that. You can try: 'alexa, open Wisher app'` +
+        ` or 'alexa, ask Wisher app to welcome or wish person'`
     );
     this.emit(':responseReady');
   },
