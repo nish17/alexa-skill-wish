@@ -1,0 +1,10 @@
+recieve our guest {guestName}
+please recieve our guest {guestName}
+please welcome our guest {guestName}
+welcome our guest {guestName}
+
+wish {guestName}
+say hi to {guestName}
+say hello to {guestName}
+wish our guest {guestName}
+
