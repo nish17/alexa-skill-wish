@@ -55,8 +55,8 @@ var handlers={
 
   Unhandled() {
     this.response.speak(
-      `Sorry, I didn't get that. You can try: 'alexa, Wisher app'` +
-        ` or 'alexa, ask wWisher app Whom you want me to welcome or wish'`
+      `Sorry, I didn't get that. You can try: 'alexa, open Wisher app'` +
+        ` or 'alexa, ask Wisher app to welcome or wish person'`
     );
     this.emit(':responseReady');
   }
