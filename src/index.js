@@ -45,6 +45,7 @@ var handlers={
       `Sorry, I didn't get that. You can try: 'alexa, open Wisher app'` +
         ` or 'alexa, ask Wisher app to welcome or wish person'`
     );
+    this.speechletResponse.shouldEndSession = false;
     this.emit(':responseReady');
   },
 
