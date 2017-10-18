@@ -41,12 +41,9 @@ var handlers={
   },
 
   'AMAZON.HelpIntent'() {
-    this.response.speak(
-      `Sorry, I didn't get that. You can try: 'alexa, open Wisher app'` +
-        ` or 'alexa, ask Wisher app to welcome or wish person'`
-    );
-    this.speechletResponse.shouldEndSession = false;
-    this.emit(':responseReady');
+    let speechOutput = "You can try: alexa, open Wisher voice or alexa, ask Wisher voice to welcome or wish the person name";
+    let repromptSpeech = "Are you still there?" + speechOutput;
+    this.emit(':ask',speechOutput,repromptSpeech);
   },
 
   'AMAZON.CancelIntent'() {
